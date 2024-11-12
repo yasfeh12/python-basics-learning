@@ -7,3 +7,12 @@ class friend:
         self.hobby=hobby
         self.skillset=skillset
         self.why_were_friends=why_were_friends
+        
+        #class function maybe do more reasearch into this for practice 
+    def bestie(self):
+        if self.why_were_friends=="fate":
+            return True
+        else:
+            return False
+        
+        
